@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main()
+{
+    int k;
+    printf("What score is the english speaking?");
+    scanf("%c", &k);
+    
+    if (k>=70)
+    {
+        printf("You are American");
+    }
+    
+    int j;
+    printf("What score is the english reading?");
+    scanf("%c", &j);
+    if (j>=70)
+    {
+        printf("You are hardworking");
+    }
+    int sum;
+    sum = k + j;
+    
+    if(sum>=130){
+        printf("You can travel abroad!");
+    } else if(sum>=100){
+        printf("You can say Trick or Treat!");
+    } else {
+        printf("You can get notthing");
+    }
+    return 0;
+}    
